@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <bank id="1" name="BPH" description="Bank BPH"/>
+    <bank id="2" name="BOS" description="Bank Ochrony Środowiska"/>
+    <bank id="3" name="BZWBK" description="Bank Zachodni WBK"/>
+    <bank id="4" name="HSBC" description="HSBC Bank Polska"/>
+    <bank id="5" name="INGBS" description="ING Bank Śląski"/>
+    <bank id="6" name="MBank" description="mBank Bankowość Detaliczna BRE Banku"/>
+    <bank id="7" name="PKOBP" description="PKO Bank Polski"/>
+</dataset>
