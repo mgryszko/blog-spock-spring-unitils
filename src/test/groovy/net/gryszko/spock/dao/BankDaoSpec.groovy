@@ -13,7 +13,7 @@ import static org.hamcrest.MatcherAssert.assertThat
 @ContextConfiguration(locations = ["classpath:/resources.xml"])
 @UnitilsSupport
 @DataSet
-class BancoDAOSpec extends Specification {
+class BankDaoSpec extends Specification {
 
   @Autowired
   private BankDao dao
