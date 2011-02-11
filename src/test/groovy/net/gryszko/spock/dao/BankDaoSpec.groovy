@@ -7,8 +7,6 @@ import org.springframework.transaction.annotation.Transactional
 import org.unitils.dbunit.annotation.DataSet
 import spock.lang.Specification
 import spock.unitils.UnitilsSupport
-import static org.hamcrest.CoreMatchers.equalTo
-import static org.hamcrest.MatcherAssert.assertThat
 
 @ContextConfiguration(locations = ["classpath:/resources.xml"])
 @UnitilsSupport
@@ -27,6 +25,6 @@ class BankDaoSpec extends Specification {
     Bank bank = dao.findByName(bankName)
 
     then:
-    assertThat bank.name, equalTo(bankName)
+    bank.name == bankName
   }
 }
