@@ -18,4 +18,9 @@ public class BankDaoHibernateImpl extends HibernateDaoSupport implements BankDao
         List<Bank> results = getHibernateTemplate().findByCriteria(crit);
         return DataAccessUtils.uniqueResult(results);
 	}
+
+    @Override
+    public void save(Bank bank) {
+        getHibernateTemplate().save(bank);
+    }
 }

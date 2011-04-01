@@ -5,5 +5,7 @@ import net.gryszko.spock.model.Bank;
 import java.util.List;
 
 public interface BankDao {
-	public Bank findByName(String name);
+	Bank findByName(String name);
+
+    void save(Bank bank);
 }
